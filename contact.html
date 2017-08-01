@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<title>Pet Pair - Contact Us</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: 'Amatic SC', cursive;}
+.w3-bar,h1,button {font-family: 'Amatic SC', cursive;}
+.fa-anchor,.fa-coffee {font-size:200px}
+
+/*.container {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+}
+
+.container a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+*/
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.container a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card-2 w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="petpair.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <div class="dropdown">
+    <button class="dropbtn">Available Pets</button>
+    <div class="dropdown-content">
+      <a href="cats.html">Cats</a>
+      <a href="index.html">Dogs</a>
+    </div>
+    </div>
+    <!--<a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Available Pets</a> -->
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Get Paired!</a>
+    <a href="pairer.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Maps</a>
+    <a href="faq.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">FAQs</a>
+    <a href="contact.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact Us</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">About</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Pair Me!</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Maps</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">FAQs</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Contact Us</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-red w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">Contact Us</h1>
+  <p class="w3-xlarge"></p>
+  
+</header>
